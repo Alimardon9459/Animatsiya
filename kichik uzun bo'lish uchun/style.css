@@ -1,0 +1,240 @@
+.conta{
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.content1{
+    margin: 50px 0px 0px 50px;
+    width: 150px;
+    height: 50px;
+ 
+    animation-name: example1;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+.content2{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+ 
+    animation-name: example2;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+.content3{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    animation-name: example3;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+.content4{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    animation-name: example4;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+.content5{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 58px;
+    background: rgb(255, 255, 255);
+    animation-name: example5;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+  
+  @keyframes example1 {
+    0%  {
+            opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    1%  {
+            opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    24%  {
+            opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    25% {
+            opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    100%{   
+            opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }   
+  }
+  @keyframes example2 {
+    0%  {   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    25%  {  opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    26%  {  opacity:1;
+            width: 100px;
+            height: 50px;
+        }
+    49%  {  opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    50% {   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    100%{   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }   
+  }@keyframes example3 {
+    0%  {   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    50%  {
+        opacity: 0;
+        width: 0px;
+        height: 50px;
+        }    
+    51%  {  opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    74%  {  opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    75% {   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    100%{   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }   
+  }@keyframes example4 {
+    0%  {   opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+    75%  {  opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }    
+    76%  {  opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    99%  {  opacity: 1;
+            width: 100px;
+            height: 50px;
+        }
+    100% {  opacity: 0;
+            width: 0px;
+            height: 50px;
+            
+        }
+  }
+  @keyframes example5 {
+    0%  {
+            left: 58px;
+            width: 150px;
+        }
+    1%  {
+            left: 58px;
+            width: 150px;   
+        }    
+    6%  {
+            left: 200px;
+            width: 0px;
+           
+        }
+    19%  {
+            left: 200px;
+            width: 0px;
+        }
+    24% {
+            left:50px
+        }
+    26%  {
+            left: 58px;
+            width: 150px;
+        }
+    31%  {
+            left: 200px;
+            width: 0px;   
+        }    
+    44%  {
+            left: 200px;
+            width: 0px;
+        }
+    48%  {
+            left: 58px;
+            width: 150px;
+        }
+    51% {
+            left:50px
+        } 
+    59%  {
+            left: 200px;
+            width: 0px;
+        } 
+    69%  {
+            left: 200px;
+            width: 0px;
+         }               
+    74% {
+            left: 58px;
+            width: 150px;
+        }
+    76%  {
+            left: 58px;
+            width: 150px;
+        }
+    81% {
+            left:150px
+        } 
+    95%  {
+            left: 200px;
+            width: 0px;
+        }
+    100%  {
+            left: 58px;
+            width: 150px;   
+        }    
+    
+  }
